@@ -49,7 +49,6 @@ public class Baraja {
         }
     }
 
-    // Saca una carta al azar
     public void sacarCartaAlAzar() {
         if (!cartas.isEmpty()) {
             int posicion = aleatorio.nextInt(cartas.size());
@@ -62,7 +61,6 @@ public class Baraja {
         }
     }
 
-    // Saca 5 cartas como una mano
     public void sacarMano() {                  
         if (cartas.size() < 5) {
             System.out.println("No hay suficientes cartas para una mano");
